@@ -1,0 +1,98 @@
+/* Text Elements */
+
+span.text-element.text-1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+span.text-element span.text-text-1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+/* Common Elements */
+
+div.table-container.table-1 td {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+div.table-container.table-1 th {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+div.table-container span.table-text-1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+div.table-container span.table-text-2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+div.table-container span.table-text-3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+div.table-container span.table-text-4 {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* Layout Elements */
+
+body > .row > [class*='coffee-span-'].column-1 {
+  background-color: #3f51b5;
+}
+
+@media screen and (max-width: 898px) {
+  /* Text Elements */
+
+  span.text-element span.text-text-1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  span.text-element.text-1 {
+    text-align: center;
+  }
+
+  /* Common Elements */
+
+  div.table-container.table-1 td {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  div.table-container.table-1 th {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='coffee-span-'].column-1 {
+    background-color: #3f51b5;
+  }
+
+  body > .row.row-1 {
+    background-color: #702270;
+  }
+
+  body > .row > [class*='coffee-span-'].column-2 {
+    background-color: #fff;
+  }
+}
