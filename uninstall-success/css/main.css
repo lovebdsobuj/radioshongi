@@ -1,0 +1,91 @@
+/* Text Elements */
+
+p.paragraph.paragraph-1 {
+  margin-top: -15px;
+  padding: 0 0 5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+p.paragraph span.paragraph-text-1 {
+  text-decoration: underline;
+}
+
+span.text-element span.text-text-1 {
+  color: #fff;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+
+span.text-element.text-1 {
+  text-align: center;
+}
+
+span.text-element.text-2 {
+  color: #000;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 4.5px;
+  font-variant: normal;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+span.text-element.text-3 {
+  color: #fff;
+  text-align: center;
+  font-size: 33px;
+}
+
+blockquote.blockquote-1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+blockquote span.blockquote-text-1 {
+  background-color: #f0e56c;
+}
+
+/* Layout Elements */
+
+body > .row > [class*='coffee-span-'].column-1 {
+  background-color: #3f51b5;
+}
+
+body > .row > [class*='coffee-span-'].column-2 {
+  background-color: #fff2eb;
+}
+
+body > .row > [class*='coffee-span-'].column-3 {
+  float: left;
+  clear: none;
+  margin: -27px auto 0 auto;
+  padding: 3px 0 0 10px;
+  background-color: #c0edcf;
+}
+
+body > .row.row-1 {
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+body > .row > [class*='coffee-span-'].column-4 {
+  margin-top: 7px;
+  padding-top: 0;
+  background-color: #e0f2f1;
+}
+
+body > .row.row-2 {
+  padding-top: 36px;
+}
+
+body > .row > [class*='coffee-span-'].column-5 {
+  background-color: #263238;
+}
+
+@media screen and (max-width: 898px) {
+}
